@@ -1,0 +1,177 @@
+.bg-black {
+  background-color: black;
+}
+
+.bg-grey {
+  background-color: #eceff1;
+}
+
+.header {
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: springgreen;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: 10px 0 0 20px;
+}
+
+span:hover {
+  color: ROYALBLUE;
+}
+
+span {
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu {
+  margin: 100px 0 0 30px;
+}
+
+.playList {
+  margin-left: 30px;
+  height: 70vh;
+}
+
+.divPlayList {
+  position: relative;
+  top: 73%;
+  color: peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: dashed 1px white;
+  padding-top: 20px;
+}
+
+.btnPlayList {
+  background-color: #1e90ff;
+  padding-top: 6px;
+  border-radius: 50%;
+}
+.btnPlayList:focus {
+  outline: none;
+}
+
+.songsContainer {
+  margin-left: 20px;
+}
+
+.songsHeader {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songsList {
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title,
+.album {
+  font-weight: bold;
+  color: BROWN;
+}
+
+.overflow {
+  overflow-y: hidden;
+}
+
+.divAddtoPlaylist {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnAddtoPlaylist {
+  background-color: darkorange;
+  padding-top: 6px;
+  border-radius: 50%;
+}
+
+.btnAddtoPlaylist:focus {
+  outline: none;
+}
+
+.playSong {
+  background-color: green;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 50px;
+  display: none;
+}
+
+#songCard:hover,
+#albumCard:hover,
+#artistCard:hover {
+  background-color: lightgray;
+  border: firebrick solid 1px;
+}
+
+.searchBar {
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 5px;
+  width: 300px;
+  outline: none;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+#playSong {
+  position: absolute;
+  bottom: 15px;
+  right: 100px;
+}
+
+.duration {
+  position: absolute;
+  bottom: 12px;
+  right: 30px;
+  display: block;
+}
+
+#songCardBody:hover ~ #playSong > svg {
+  display: block;
+}
+
+#playSong:hover > svg {
+  display: block;
+  background-color: tomato;
+}
+
+.albumList {
+  height: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo {
+  height: 60%;
+}
+.logoSongs {
+  height: 50%;
+}
